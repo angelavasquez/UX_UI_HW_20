@@ -1,0 +1,22 @@
+/* Text */
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Spartan' , sans-serif;
+}
+.customNav{
+    background-color: #FF5E58 !important;
+    font-family: 'Spartan' , sans-serif;
+}
+.nav-link{
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-top: 50px;
+}
