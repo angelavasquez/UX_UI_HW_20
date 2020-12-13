@@ -154,15 +154,19 @@ p{
 .fixed-bottom .custom {
     background-color: #FF5E58;
 }
-.navbar-nav{
-    color: white;
-    float: right;
-}
 
 .dropdown-menu{
     background-color: #FF5E58;
 }
 
 .dropdown-item a{
+    border: solid 3px red;
     color: white;
+}
+.navbar .container-fluid{
+    background-color: #FF5E58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 0px 70px;
 }
