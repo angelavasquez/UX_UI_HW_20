@@ -2,10 +2,12 @@
 h1{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
+    font-size: 72px;
 }
 h2, h3, h4, h5{
     font-family: 'Playfair Display', serif;
     font-size: 36pt;
+    padding: 10px;
 }
 .content{
     display: flex;
@@ -24,7 +26,8 @@ h2, h3, h4, h5{
     z-index: 10;
 }
 .nav-link{
-    color: white;
+    color: white !important;
+    font-family: 'Spartan' , sans-serif !important;
 }
 li{
     margin: 20px 20px;
@@ -34,6 +37,8 @@ li{
     font-size: 21pt;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
+    margin: 60px;
+    padding: 50px;
 }
 .projectSummary{
     margin: 20px;
@@ -86,7 +91,6 @@ li{
     float: right;
 }
 .container{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: top;
@@ -95,7 +99,7 @@ li{
     width: 100%;
     background-color: #FF9B97;
     padding: 50px 75px;
-    line-height: 25px;
+    line-height: 35px;
 }
 
 .list-group-description{
@@ -108,6 +112,7 @@ h4{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     color: black;
+    display: block;
 }
 h5{
     font-family: 'Spartan' , sans-serif !important;
@@ -118,6 +123,7 @@ p{
     font-family: 'Spartan' , sans-serif !important;
     font-weight: 100;
     font-size: 14pt;
+    padding: 35px;
 }
 .scrollspy-example img{
     display: block;
@@ -132,4 +138,31 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.imageContainer{
+    width: 100%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-family: 'Spartan' , sans-serif !important;
+    color: white !important;
+}
+.fixed-bottom .custom {
+    background-color: #FF5E58;
+}
+.navbar-nav{
+    color: white;
+    float: right;
+}
+
+.dropdown-menu{
+    background-color: #FF5E58;
+}
+
+.dropdown-item a{
+    color: white;
 }
